@@ -260,10 +260,10 @@
 
            $mail->IsHTML(true);
 
-           $mail->Username = "justwords.payel@gmail.com";
+           $mail->Username = "meenaxi.badola@justwords.in";
     $mail->Password = "wuvcdvnvbxajqyuv";
 
-           $mail->SetFrom("justwords.payel@gmail.com", "Justwords");
+           $mail->SetFrom("meenaxi.badola@justwords.in", "Justwords");
            $mail->AddAddress($email);
            $mail->Subject = "Thank you for contacting us";
            $mail->Body = $senderMessage;
@@ -279,6 +279,7 @@
               //  $mail->AddAddress('payel@justwords.in');
               //  $mail->AddAddress('rohit.panwar@justwords.in');
               $mail->AddAddress('meenaxi.badola@justwords.in');
+              $mail->AddAddress('meenaxibadola1@gmail.com');
                /*$mail->AddAddress('amlan@justwords.in,projects@justwords.in,kirti.parashar@justwords.in,kaushik.saha@justwords.in,payel@justwords.in,payal@justwords.in,ved.prakash@justwords.in,sajeeli.gupta@justwords.in');*/
                $mail->Send();
            }
